@@ -10,6 +10,7 @@ namespace TestApp
     {
         protected void Application_Start()
         {
+            // comment
             AreaRegistration.RegisterAllAreas();
             GlobalConfiguration.Configure(WebApiConfig.Register);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
